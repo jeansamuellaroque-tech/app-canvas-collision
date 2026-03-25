@@ -55,5 +55,5 @@ function animate1() {
   circles1.forEach(c => c.update());
 }
 
-createCircles1();
+createCircles1(window.cantidadCirculos || 8);
 animate1();

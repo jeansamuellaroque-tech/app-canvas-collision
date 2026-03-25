@@ -105,5 +105,5 @@ function animate3() {
   }
 }
 
-createCircles3();
+createCircles3(window.cantidadCirculos || 8);
 animate3();

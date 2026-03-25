@@ -75,5 +75,5 @@ function animate2() {
   }
 }
 
-createCircles2();
+createCircles2(window.cantidadCirculos || 8);
 animate2();
